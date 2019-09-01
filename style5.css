@@ -1,0 +1,86 @@
+.navbar{
+	background-color: #FF637D;
+	overflow: hidden; /*para que no se encimen cosas en nuestra barra*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em 1em; /*valor de arriba y valor de la izquierda*/
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	background-color: #66D7D1 ; /*el fondo cambia de color al pasar el mouse*/
+}
+
+.contenido{
+	margin-top: 6em; /*margen superior para que el contenido no quede atrás de la barra*/
+	color: black;
+	text-align: center;
+}
+
+figure img{
+	width: 30%;
+}
+
+
+#SoyAmalia {
+	background-image: url("img/fondo10.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+}
+
+header figure img{
+	display: block;
+	width: 350px;
+	margin: 5em auto 1em auto;
+	border-radius: 50%;
+	border: 4px solid white;
+}
+
+.acerca{
+	margin-top: 12em; /*margen superior para que el contenido no quede atrás de la barra*/
+	color: black;
+	text-align: center;
+}
+
+.fotos{
+	margin-top: 12em; 
+	color: black;
+	text-align: center;
+}
+
+.contacto {
+	margin-top: 4em; 
+	color: black;
+	height: 300px;
+	padding: 80px;
+	float: left;
+}
+
+.mapa {
+	float: left;
+	margin-left: 40px;
+	
+}
+
+.contacto h1{
+	text-align: center;
+}
+
+
+.contacto h2{
+	margin-top: 6em;
+	float: right;
+	color: black;
+}
+
